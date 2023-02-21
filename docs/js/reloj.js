@@ -17,7 +17,7 @@ const mostrarReloj = () => {
 
 const formatoHora = (hora) => {
     if(hora < 10){
-        hora +='0';
+        hora ='0' + hora;
     }
     return hora;
 }
